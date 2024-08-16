@@ -1,0 +1,111 @@
+* *::after *::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+body {
+  font-family: sans-serif;
+  margin: 50px auto;
+}
+
+#wrapper {
+  width: 1200px;
+  height: 650px;
+  padding: 100px 0;
+  margin: auto;
+  background-color: rgba(40, 34, 63, 0.997);
+}
+
+.card {
+  width: 400px;
+  color: rgba(255, 255, 255, 0.541);
+  border-radius: 10px;
+  box-shadow: 2px 4px 5px 0px rgba(0, 0, 0, 0.2),
+    2px 4px 40px 4px rgba(0, 0, 0, 0.5);
+  margin: auto;
+}
+
+.main_content {
+  background-color: #231e39;
+  padding: 30px;
+  height: max-content;
+}
+
+img {
+  width: 200px;
+  height: 200px;
+  border-radius: 200px;
+  border: 2px #97d7f5;
+  padding: 5px;
+}
+
+.img {
+  width: 210px;
+  height: 210px;
+  border-radius: 200px;
+  border: 2px solid #97d7f5;
+  margin: auto;
+  padding: 5px;
+}
+
+h1 {
+  display: block;
+  text-align: center;
+  font-size: 25px;
+}
+
+.place {
+  text-align: center;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.main_content p {
+  font-size: 18px;
+  text-align: center;
+  padding: 10px 50px;
+  letter-spacing: 1px;
+  font-weight: 400;
+}
+
+.btn_1,
+.btn_2 {
+  display: inline-block;
+  padding: 10px 15px;
+  font-size: 18px;
+  border-radius: 10px;
+}
+
+.btn_1 {
+  border: none;
+  display: inline-block;
+  margin-left: 60px;
+  background-color: #03bfcb;
+}
+
+.btn_2 {
+  border: 1px solid #03bfcb;
+  background-color: inherit;
+  color: rgba(255, 255, 255, 0.541);
+  margin-left: px;
+}
+.skills {
+  background-color: #1a162f;
+  margin-top: -20px;
+  padding: 20px;
+}
+
+.skills h3 {
+  font-size: 20px;
+}
+
+.skills span {
+  border: 1px solid #173537;
+  font-size: 16px;
+  padding: 7px;
+}
+
+.skills div {
+    margin: 5px 0;
+}
